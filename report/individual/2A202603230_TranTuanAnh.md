@@ -5,7 +5,7 @@
 - Họ tên: Trần Tuấn Anh
 - MSSV: 2A202603230
 - Email: 26ai.anhtt5@vinuni.edu.vn
-- Lớp: K5 Level 2B
+- Lớp: 2A-LAB-E402
 - Link repo bài làm: https://github.com/plastma65/K5-L2B-DAY02-TranTuanAnh-2A202603230-ObjectDetection
 - Link Colab đã chạy: https://colab.research.google.com/drive/1mSUJInM5ALzleRIsk5t9z3IT7DibvB36?usp=sharing
 
