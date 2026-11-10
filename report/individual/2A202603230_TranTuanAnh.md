@@ -122,5 +122,5 @@ Kết quả: [ảnh dự đoán 10 ảnh eval](assets/eval_predictions/visuals/)
 ## 8. Công cụ AI và tài liệu tham khảo
 
 - Claude (Anthropic): hỗ trợ đọc tài liệu đề bài, chạy `check_yolo_labels.py` và `evaluate_annotations.py`, viết script đổi ID lớp, tổng hợp số liệu theo ảnh và soạn nháp báo cáo này. Box và quyết định gán nhãn do mình tự làm trong công cụ annotation; nội dung báo cáo đã được mình đọc lại và chỉnh sửa.
-- Công cụ gán nhãn: CVAT online (app.cvat.ai), export định dạng Ultralytics YOLO Detection. Có dùng tính năng tự động gán nhãn bằng model YOLOv7 có sẵn trong CVAT (ví dụ `drive_038`); các box tự động được mình rà lại bằng mắt và sửa lớp/vị trí khi sai.
+- Công cụ gán nhãn: CVAT online (app.cvat.ai), export định dạng Ultralytics YOLO Detection. Ảnh `drive_001`–`drive_037` mình tự gán tay. Từ `drive_038` đến `drive_050`, mình dùng tính năng tự động gán nhãn bằng model YOLOv7 có sẵn trong CVAT, xen kẽ với tự gán thêm xe bị sót, sửa lớp/vị trí box và xóa box sai; mọi box tự động đều được rà lại bằng mắt.
 - Không dùng nguồn dữ liệu ngoài repo.
